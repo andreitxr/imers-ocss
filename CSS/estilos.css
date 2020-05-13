@@ -1,0 +1,41 @@
+/* Aula inicial :D */
+body {
+  background-image: url('https://agencialyon.com.br/wp-content/uploads/2017/02/fundo-sites.jpg');
+  background-size: auto 100vh;
+  font-family: arial;
+  height: 100vh;
+}
+
+.menu{
+  background-color: pink;
+}
+
+.menu li {
+  list-style: none;
+}
+
+.menu ul{
+  display: flex;
+  justify-content: space-around;
+}
+
+.site-title{
+  color: blue;
+  text-align: center;
+}
+
+.site-subtitle{
+  font-style: italic;
+  text-align: center;
+}
+
+a{
+  color: teal;
+  text-decoration: none;
+}
+
+a:hover{
+  text-decoration: underline;
+}
+
+
